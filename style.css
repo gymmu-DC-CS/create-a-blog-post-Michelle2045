@@ -6,6 +6,64 @@
 
 body {
   margin: 0;
-  background-color: lightgray;
-  font-family: sans-serif;
+  background-color: rgb(208, 238, 247);
+  font-family:monospace;
 }
+
+h1{
+  color: rgba(13, 3, 143, 0.751);
+}
+
+p{
+  color: rgb(27, 50, 50);
+}
+
+#box {
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes color-changer {
+  0% {
+    background-color: cornflowerblue;
+    left: auto;
+    right: auto;
+  }
+  50% {
+    background-color: blueviolet;
+    left: auto;
+    right: auto;
+  }
+  100% {
+    background-color: cornflowerblue;
+    left: auto;
+    right: auto;
+  }
+}
+
+div {
+  background-color: cornflowerblue;
+  animation-name: color-changer;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#salto{
+  width: 5px;
+  margin-left: 5px;
+  height: 5px;
+}
+
+@keyframes rotation {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(180deg);}
+}
+
+
+#salto:hover {
+  animation: rotation 3s infinite;
+}
+
+
+ 
+
