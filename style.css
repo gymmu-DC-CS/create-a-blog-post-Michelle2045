@@ -48,6 +48,7 @@ div {
   animation-iteration-count: infinite;
 }
 
+
 #salto{
   width: 5px;
   margin-left: 5px;
@@ -56,13 +57,17 @@ div {
 
 @keyframes rotation {
   0% {transform: rotate(0deg);}
-  100% {transform: rotate(180deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
 }
 
 
-#salto:hover {
-  animation: rotation 3s infinite;
+#salto {
+  animation-name: rotation;
+  animation-duration: 5s;
+  -o-animation-iteration-count: infinite;
 }
+
 
 
  
