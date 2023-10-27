@@ -33,7 +33,7 @@ h4 {
 p {
   color: rgb(34, 63, 63);;
 }
-
+/* I found this code on a website, unfortunaly I dont know what its called anymore */
 .selektor {
   white-space:nowrap
   }
@@ -45,7 +45,7 @@ p {
   font-size: 18px;
   border: 1px solid #001055;}
 
-
+/* this code is also from my first website */
 @keyframes color-changer {
   0% {
     background-color: cornflowerblue;
@@ -81,7 +81,7 @@ div {
   top: 550px;
   right: 20px;
 }
-
+/* I was able to animate this animation with a little of your help */
 @keyframes rotation {
   0% {transform: rotate(0deg);}
   25% {transform: rotate(90deg ) ;}
@@ -96,7 +96,7 @@ div {
   top: 550px;
   left: -230px;
 }
-
+/* Philine gave me this tip */
 #box{
   border: 15px solid;
   color: rgb(6, 120, 105)
@@ -136,3 +136,4 @@ div {
   bottom: 198px;
   left: 914px ;
  }
+ 
